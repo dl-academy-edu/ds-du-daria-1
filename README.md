@@ -1,4 +1,4 @@
 # Личный проект "......."
 
-* Студент [Du Daria](https://t.me/Du_Daria)
-* Наставник [Denis Simonenko](https://t.me/SantaX000)
+* Студент [Дю Дарья](https://t.me/Du_Daria)
+* Наставник [Симоненко Денис](https://t.me/SantaX000)
