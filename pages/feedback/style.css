@@ -1,0 +1,36 @@
+.poster {
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+    
+.poster__title {
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 28%;
+  width: 40%;
+}
+
+.poster__decor {
+  margin-top: -5%;
+  width: 100%;
+}
+
+.rubric {
+  padding-top: 40px;
+  padding-bottom: 40px; 
+  width: 47%;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.rubric__title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 26px;
+}
+
+.rubric__text {
+  line-height: 1.8;
+}
