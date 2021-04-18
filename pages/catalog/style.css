@@ -7,9 +7,10 @@
   
 .poster__title {
   position: absolute;
-  margin-top: 8.5%;
-  margin-left: 31%;
   width: 38%;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .poster__decor {
@@ -39,7 +40,7 @@
 }
 
 .rubric__text {
-  padding-top: 10px;
+  padding-top: 13px;
   line-height: 1.7;
   font-size: 15px;
 }
@@ -58,7 +59,8 @@
 .photos-info {
   display: flex;
   padding: 0;
-  margin-top: -5px;
+  margin-top: 0;
+  /* margin-top: -5px; */
   margin-bottom: 0;
 }
 
@@ -88,11 +90,12 @@
   right: 0;
   bottom: 0;
   margin: 0;
-  padding-top: 13px;
+  padding-top: 14px;
   padding-left: 20px;
-  padding-bottom: 15px;
-  max-height: 80px;
+  /* padding-bottom: 20px; */
+  min-height: 80px;
   background-color: rgba(0, 0, 0, 0.2);
+  /* background-color: red; */
   color: #FFFFFF;
   justify-content: space-between;
 }
@@ -107,7 +110,7 @@
 
 .photo__item {
   align-items: center;
-  padding-right: 20px;
+  padding-right: 22px;
 }
 
 .photo-like__logo {
@@ -150,6 +153,7 @@
 } 
 
 .photo__text + p {
+  padding-top: 2px;
   text-transform: none;
   font-size: 14px;
   line-height: 24px;
@@ -158,14 +162,23 @@
 .photo__item:first-of-type + li {
   display: flex; 
   align-self: center;
+  margin-top: -13px;
 }
+
 
 .photo__amount-likes {
   align-self: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .photo__image {
   min-height: 260px;
+}
+
+.photos-info > .photo > .photo__list > .photo__item:first-of-type + li {
+  margin-right: 9px;
 }
 
 .video-info {

@@ -57,6 +57,7 @@ li {
   list-style-type: none;
 }
 
+
 /* header *************************************/
 .header-nav {
   display: flex;
@@ -125,7 +126,7 @@ li {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 13px;
+  padding-top: 20px;
   padding-bottom: 30px;
 }
 
@@ -138,6 +139,7 @@ li {
 .footer-hashteg {
   width: 100%; 
   max-width: 166px;
+  margin-left: -13px;
 }
 
 .footer-hashteg__item {
@@ -149,7 +151,7 @@ li {
 }
 
 .footer-social {
-  padding-right: 40px;
+  padding-right: 22px;
 }
 
 .footer-social__list {
@@ -190,13 +192,17 @@ li {
   opacity: 0.3;
 }
 
+.footer-web {
+  padding-left: 6px;
+}
+
 .footer-web__link {
   display: flex;
 }
 
 .footer-web__text {
   align-self: center;
-  padding-right: 15px;
+  padding-right: 10px;
   font-size: 14px;
   line-height: 26px;
   color: #000000;

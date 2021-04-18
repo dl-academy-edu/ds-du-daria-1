@@ -1,13 +1,15 @@
 .poster {
   text-align: center;
   position: relative;
+  max-height: 518px;
 }
 
 .poster__title {
   position: absolute;
-  margin-top: 6.5%;
-  margin-left: 30.5%;
-  width: 39%;
+  width: 38%;
+  top: 15%;
+  left:50%;
+  transform: translate(-50%, 0);
 }
 
 .poster__decor {
@@ -17,8 +19,8 @@
 }
 
 .lead-in {
-  padding-top: 34px;
-  padding-bottom: 20px;
+  padding-top: 38px;
+  padding-bottom: 28px;
   width: 50%;
   text-align: center;
   margin: 0 auto;
@@ -32,9 +34,9 @@
 }
 
 .lead-in__text {
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 17px;
   font-size: 15px;
+  line-height: 1.5;
 }
 
 .block-info-1 {
@@ -79,12 +81,12 @@
   color: white;
   text-align: center;
   margin: 0 auto;
-  padding-bottom: 12px;
+  padding-bottom: 21px;
   text-transform: uppercase;
 }
 
 .block-info-1__text_some, .block-info-3__text_some {
-  padding-top: 15px;
+  padding-top: 13px;
   font-size: 15px;
   line-height: 1.4;
 }
@@ -148,18 +150,21 @@
   color: #000000;
   text-transform: uppercase;
   padding-top: 3px;
-}
-
-.block-info-2__title_souvenir + .block-info-2__text {
-  padding-top: 6px;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
 }
 
 .block-info-2__text {
-  padding-top: 12px;
+  padding-top: 5px;
   color: #000000;
   text-transform: uppercase;
   line-height: 1.5;
   font-size: 14px;
+}
+
+.block-info-2__title_souvenir + .block-info-2__text {
+  padding-top: 0px;
 }
 
 @media screen and (max-width: 900px) {
@@ -169,7 +174,7 @@
 }
 
 .block-info-3 {
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .block-info-3__link {
@@ -223,8 +228,8 @@
 
 .block-info-4__text_some {
   font-size: 15px;
-  padding-top: 16px;
-  line-height: 1.4;
+  padding-top: 14px;
+  line-height: 1.5;
 }
 
 @media screen and (max-width: 900px) {
@@ -237,12 +242,8 @@
 .aditional-info__link {
   display: block;
   padding: 16px 0;
-  margin-top: 22px;
-  margin-bottom: 17px;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 26px;
-  text-align: center;
+  max-width: 458px;
+  margin: auto;
   background-color: #81B3D2;
   text-transform: uppercase;
 }
@@ -260,6 +261,9 @@
   display: block;
   width: 100%;
   color: #FFFFFF;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
 }
 
 .aditional-info__link_text:focus, 
@@ -275,8 +279,7 @@
 
 .aditional-info__item {
   padding-top: 52px;
-  padding-bottom: 50px;
-  width: 458px;
+  padding-bottom: 66px;
   margin: 0 auto;
   text-align: center;
 }
@@ -289,10 +292,12 @@
 
 .aditional-info__text {
   margin: 0;
-  padding-top: 10px;
+  padding-top: 6px;
+  padding-bottom: 20px;
+  padding-bottom: 40px;
   font-size: 15px;
   text-transform: uppercase;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 .aditional-info__map {
