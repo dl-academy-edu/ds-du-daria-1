@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Catalog/Sedona</title>
+    <link rel="icon" href="/../../images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/../normalize.css">
+    <link rel="stylesheet" href="/../common.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="container-back">
+      <div class="container">
+        <nav class="header-nav">
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="/../../index.html">Главная</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="/pages/catalog/index.html">Фото и видео</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header__logo" href="/../../index.html">
+                <img class="header__logo-img" src="/../../images/logotype-desktop.svg" alt="logo">
+              </a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link header-nav__link--disable" href="#">Форма отзыва</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">HTML ACADEMY</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main container-back">
+      <section class="poster container">
+        <h1 class="hidden">Форма</h1>
+        <img class="poster__title" src="/../../images/text-sedona.svg" alt="text sedona">
+        <img class="poster__link-bg" src="/../../images/desktop.jpg" alt="mounting of Sedona">
+        <div class="poster__decor">
+          <svg viewBox="0 0 1200 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M249.6 23.7L0 0V57H249.6H600L249.6 0V23.7Z" fill="white"/>
+            <path d="M950.4 23.7V0L600 57H950.4H1199.9V0L950.4 23.7Z" fill="white"/>
+          </svg>
+        </div>
+      </section>
+
+      <section class="photos-video-info container">
+        <h1 class="hidden">Фото</h1>
+        <div class="rubric">
+          <h1 class="rubric__title">Оставьте свой отзыв</h1>
+          <p class= rubric__text>Помогите нашим отелям стать лучше! оставьте отзыв о них,
+          а также о посещенных вами достопримечательностях </p>
+        </div>
+      </section>
+
+      <section class="contact container">
+        <h2 class="hidden">contact</h2>
+        <div class="contact-bg">
+          <form action="#" method="POST">
+            <fieldset class="contact-fieldset">
+              <div class="selection-impression">
+                <h2 class="selection-impression__title">Ваше общее впечатление:</h2>
+                <ul class="selection-impression__list">
+                  <li class="selection-impression__item">
+                    <label class="selection-impression__label">
+                      <input class="selection-impression__input-user hidden" checked type="radio" name="impression" value="positive">
+                      <span class="selection-impression__click-user"></span>
+                      <span class="selection-impression__text">Скорее положительное</span>
+                    </label>
+                  </li>
+                  <li class="selection-impression__item">
+                    <label class="selection-impression__label">
+                      <input class="selection-impression__input-user hidden" type="radio" name="impression" value="negative">
+                      <span class="selection-impression__click-user"></span>
+                      <span class="selection-impression__text">Скорее отрицательное</span>
+                    </label>
+                  </li>
+                  <li class="selection-impression__item">
+                    <label class="selection-impression__label">
+                      <input class="selection-impression__input-user hidden" type="radio" name="impression" value="loss_to_answer">
+                      <span class="selection-impression__click-user"></span>
+                      <span class="selection-impression__text">Затрудняюсь ответить</span>
+                    </label>
+                  </li>
+                </ul>
+              </div>
+              <div class="contact-introduce">
+                <h2 class="contact-introduce__title">Представьтесь:</h2>
+                <ul class="contact-introduce__list">
+                  <li class="contact-introduce__item">
+                    <label class="contact-introduce__label contact-introduce__label_first-name" for="first-name"> Имя*:</label>
+                    <input class="contact-introduce__input" id="first-name" type="text" name="first-name" placeholder="Петр">
+                  </li>
+                  <li class="contact-introduce__item">
+                    <label class="contact-introduce__label contact-introduce__label_last-name" for="last-name"> Фамилия*:</label>
+                    <input class="contact-introduce__input" id="last-name" type="text" name="last-name" placeholder="Иванов">
+                  </li>
+                  <li class="contact-introduce__item">
+                    <label class="contact-introduce__label contact-introduce__label_midl-name" for="midl-name">Отчество:</label>
+                    <input class="contact-introduce__input" id="midl-name" type="text" name="midl-name" placeholder="Александрович">
+                  </li>
+                </ul>
+              </div>
+            </fieldset>
+
+            <fieldset class="contact-inform">
+              <legend class="contact-inform__legend">Контактная информация:</legend>
+                <div class="contact-inform__user">
+                  <div class="contact-inform__user-inf">
+                    <label class="contact-inform__label" for="user-phone">Телефон*:</label>
+                    <div class="contact-inform__wrapper">
+                      <input class="contact-inform__input" id="user-phone" type="tel" name="phone" placeholder="Введите телефон">
+                      <span class="contact-inform__badge">
+                        <img src="/../../images/icon-phone.svg" alt="icon phone">
+                      </span>
+                    </div>
+                  </div>
+                  <div class="contact-inform__user-inf">
+                    <label class="contact-inform__label" for="user-email">Электронная почта*:</label>
+                    <div class="contact-inform__wrapper">
+                      <input class="contact-inform__input" id="user-email" type="email" name="email" placeholder="Введите e-mail">
+                      <span class="contact-inform__badge">
+                        <img src="/../../images/icon-mail.svg" alt="icon mail">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+            </fieldset>
+
+            <fieldset class="select-sights">
+              <legend class="select-sights__legend">Посещенные <br>  достопримечательности:</legend>
+                <ul class="select-sight__list" style="display: flex; justify-content: space-between;">
+                  <li class="select-sight__item">
+                    <label class="select-sight__label">
+                      <input class="select-sight__input hidden" checked type="checkbox" name="attractions" value="bridge">
+                      <span class="select-sight__click"></span>
+                      <span class="select-sight__text">Мост Дьявола</span> 
+                    </label>
+                  </li>
+                  <li class="select-sight__item">
+                    <label class="select-sight__label">
+                      <input class="select-sight__input hidden" checked type="checkbox" name="attractions" value="mountain">
+                      <span class="select-sight__click"></span>
+                      <span class="select-sight__text">Гора-Колокол</span> 
+                    </label>
+                  </li>
+                  <li class="select-sight__item">
+                    <label class="select-sight__label">
+                      <input class="select-sight__input hidden" checked type="checkbox" name="attractions" value="park">
+                      <span class="select-sight__click"></span>
+                      <span class="select-sight__text">Слайд-парк</span>
+                    </label>
+                  </li>
+                  <li class="select-sight__item">
+                    <label class="select-sight__label">
+                      <input class="select-sight__input hidden" type="checkbox" name="attractions" value="rocks">
+                      <span class="select-sight__click"></span>
+                      <span class="select-sight__text">Красные скалы</span>
+                    </label>
+                  </li>
+                </ul>
+            </fieldset>
+            <fieldset class="user-emotions">
+              <legend class="user-emotions__legend">Опишите свои эмоции:</legend>
+              <textarea class="user-emotions__field" type="text" id="user-message" name="message" placeholder="Опишите подробно все свои восторги"></textarea>
+            </fieldset>
+            <div class="user-confirm">
+              <button class="user-confirm__button-submit" type="submit" value="submit">
+                <span>Отправить отзыв</span>
+              </button>
+              <p class="user-confirm__text">* — обязательные поля</p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container-back">
+      <div class="footer container">
+        <div class="footer-hashteg">
+          <p class="footer-hashteg__item">#VisitSeidona</p>
+        </div>
+        <div class="footer-social">
+          <ul class="footer-social__list">
+            <li class="footer-social__item">
+              <a class = "footer-social__link" href="https://twitter.com/">
+                <img class="footer__logo-svg" src="/../../images/icon-twitter.svg" alt="icon twitter">
+              </a>
+            </li>
+            <li class="footer-social__item">
+              <a class = "footer-social__link" href="https://www.facebook.com">
+                <img class="footer__logo-svg" src="/../../images/icon-facebook.svg" alt="icon facebook">
+              </a>
+            </li>
+            <li class="footer-social__item">
+              <a class="footer-social__link" href="https://www.youtube.com">
+                <img class="footer__logo-svg" src="/../../images/icon-youtube.svg" alt="icon youtube">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-web">
+          <a class="footer-web__link" href="#">
+            <p class="footer-web__text">Разработано</p>
+            <svg class="footer-web__logo-svg" width="27" height="35" viewBox="0 0 27 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.6 0H13.5L0 1.4V26.1L13.5 34.1L26.9 26.1V1.4L13.6 0ZM25 12.1L13.5 5.3V5.2H13.4L13.3 
+              5.1V5.2L1.9 12.1V3.1L13.4 1.9L25 3.1V12.1ZM13.4 6.8L24.9 13.5L20.4 16.1L13.3 11.9V13.3L19.2 
+              16.8L18.3 17.3L13.3 14.3V15.7L17.1 18L16.3 18.5L13.3 16.7V18.1L15.2 19.2L13.4 20.3L2 13.6L13.4 
+              6.8ZM1.9 15.1L13.3 21.9V22.9L5.4 18.2V19.6L13.4 24.4V25.5L5.4 20.8V22.2L13.4 27L21.5 22.1V16.9L24.9 
+              14.9V24.9L13.4 31.8L1.9 25V15.1Z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

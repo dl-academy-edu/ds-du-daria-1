@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Catalog/Sedona</title>
+    <link rel="icon" href="/../../images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/../normalize.css">
+    <link rel="stylesheet" href="/../common.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="container-back">
+      <div class="container">
+        <nav class="header-nav">
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="/../../index.html">Главная</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link header-nav__link--disable" href="#">Фото и видео</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header__logo" href="/../../index.html">
+                <img class="header__logo-img" src="/../../images/logotype-desktop.svg" alt="logo">
+              </a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="/pages/feedback/">Форма отзыва</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">HTML ACADEMY</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main container-back">
+      <section class="poster container">
+        <h1 class="hidden">Заголовок</h1>
+        <img class="poster__title" src="/../../images/text-sedona.svg" alt="text sedona">
+        <img class="poster__link-bg" src="/../../images/desktop.jpg" alt="mounting of Sedona">
+        <div class="poster__decor">
+          <svg viewBox="0 0 1200 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M249.6 23.7L0 0V57H249.6H600L249.6 0V23.7Z" fill="white"/>
+            <path d="M950.4 23.7V0L600 57H950.4H1199.9V0L950.4 23.7Z" fill="white"/>
+          </svg>
+        </div>
+      </section>
+
+      <section class="photos-video-info container">
+        <h2 class="hidden">Фото</h2>
+        <div class="rubric">
+          <h1 class="rubric__title">Фото и видео</h1>
+          <p class= rubric__text>Не можете решиться на путешествие из-за курса? 
+            Фотографии помогут вам забыть о политике и экономике. </p>
+        </div>
+        <div class="main-photo">
+          <img class="photo__image" src="/../../images/photo-1-desktop.jpg" alt="photo sunset">
+          <ul class="photo__list">
+            <li class="photo__item">
+              <p class="photo__text">Неродные просторы</p>
+              <p class="photo__text">Автор фото: Бориc</p>
+            </li>  
+            <li class="photo__item">
+              <button class="photo-like__button" type="button">
+                <img class="photo-like__logo" src="/../../images/like-icon.svg" alt="like icon">
+              </button>
+              <p class="photo__amount-likes">1350</p>
+            </li>
+          </ul>
+        </div>
+        <ul class="photos-info">
+          <li class="photo">
+            <img class="photos-info__image" src="/../../images/photo-2-desktop.jpg" alt="photo mount">
+            <ul class="photo__list">
+              <li class="photo__item">
+                <p class="photo__text">Местная растительность</p>
+                <p class="photo__text">Автор фото: Сергей</p>
+              </li>  
+              <li class="photo__item">
+                <button class="photo-like__button" type="button">
+                  <img class="photo-like__logo" src="/../../images/like-icon.svg" alt="like icon">
+                </button>
+                <p class="photo__amount-likes">143</p>
+              </li>
+            </ul>
+            
+          </li>
+          <li class="photo">
+            <img class="photos-info__image" src="/../../images/photo-3-desktop.jpg" alt="photo road">
+            <ul class="photo__list">
+              <li class="photo__item">
+                <p class="photo__text">Дорога на север</p>
+                <p class="photo__text">Автор фото: Петр</p>
+              </li>  
+              <li class="photo__item">
+                <button class="photo-like__button" type="button">
+                  <img class="photo-like__logo" src="/../../images/like-icon.svg" alt="like icon">
+                </button>
+                <p class="photo__amount-likes">96</p>
+              </li>
+            </ul>
+          </li>
+          <li class="photo">
+            <img class="photos-info__image" src="/../../images/photo-4-desktop.jpg" alt="photo devil's bridge">
+            <ul class="photo__list">
+              <li class="photo__item">
+                <p class="photo__text">Мост дьявола</p>
+                <p class="photo__text">Автор фото: Антон</p>
+              </li>  
+              <li class="photo__item">
+                <button class="photo-like__button" type="button">
+                  <img class="photo-like__logo" src="/../../images/like-icon.svg" alt="like icon">
+                </button>
+                <p class="photo__amount-likes">254</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section class="video container">
+        <h2 class="hidden">Видео</h2>
+        <div class="aditional-info__item">
+          <h1 class="aditional-info__title">Все еще сомневаетесь?</h1>
+          <p class="aditional-info__text">  Смотрите видеопрезентацию и скорее за билетами, 
+            пока они не подорожали в очередной раз! </p>
+        </div>
+        <div class="video-info">
+          <video class="video-info__video" controls="controls" poster="/../../images/video-desktop.jpg">
+              <source src="/../../video/Sedona_Tour.webm" type='video/webm; codecs="vp8, vorbis"'>
+            <source src="/../../video/Sedona_Tour.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            Тег video не поддерживается вашим браузером.
+            <a href="/../../video/Sedona_Tour.mp4">Скачайте видео</a>
+          </video>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container-back">
+      <div class="footer container">
+        <div class="footer-hashteg">
+          <p class="footer-hashteg__item">#VisitSeidona</p>
+        </div>
+        <div class="footer-social">
+          <ul class="footer-social__list">
+            <li class="footer-social__item">
+              <a class = "footer-social__link" href="https://twitter.com/">
+                <img class="footer__logo-svg" src="/../../images/icon-twitter.svg" alt="icon twitter">
+              </a>
+            </li>
+            <li class="footer-social__item">
+              <a class = "footer-social__link" href="https://www.facebook.com">
+                <img class="footer__logo-svg" src="/../../images/icon-facebook.svg" alt="icon facebook">
+              </a>
+            </li>
+            <li class="footer-social__item">
+              <a class="footer-social__link" href="https://www.youtube.com">
+                <img class="footer__logo-svg" src="/../../images/icon-youtube.svg" alt="icon youtube">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-web">
+          <a class="footer-web__link" href="#">
+            <p class="footer-web__text">Разработано</p>
+            <svg class="footer-web__logo-svg" width="27" height="35" viewBox="0 0 27 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.6 0H13.5L0 1.4V26.1L13.5 34.1L26.9 26.1V1.4L13.6 0ZM25 12.1L13.5 5.3V5.2H13.4L13.3 
+              5.1V5.2L1.9 12.1V3.1L13.4 1.9L25 3.1V12.1ZM13.4 6.8L24.9 13.5L20.4 16.1L13.3 11.9V13.3L19.2 
+              16.8L18.3 17.3L13.3 14.3V15.7L17.1 18L16.3 18.5L13.3 16.7V18.1L15.2 19.2L13.4 20.3L2 13.6L13.4 
+              6.8ZM1.9 15.1L13.3 21.9V22.9L5.4 18.2V19.6L13.4 24.4V25.5L5.4 20.8V22.2L13.4 27L21.5 22.1V16.9L24.9 
+              14.9V24.9L13.4 31.8L1.9 25V15.1Z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
