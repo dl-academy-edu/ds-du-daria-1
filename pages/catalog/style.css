@@ -177,7 +177,7 @@
   min-height: 260px;
 }
 
-.photos-info > .photo > .photo__list > .photo__item:first-of-type + li {
+.photos-info .photo__item {
   margin-right: 9px;
 }
 
